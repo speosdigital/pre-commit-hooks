@@ -1,0 +1,2 @@
+#!/bin/bash
+docker-compose -f docker-unittests.yml -p pre_commit_ut run --rm web /bin/bash -c 'pip install -r requirements_dev.txt &>/dev/null && PYTHONPATH=apps prospector --profile-path prospector.yml'

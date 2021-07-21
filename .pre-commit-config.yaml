@@ -1,0 +1,6 @@
+-   id: prospector
+    name: Run prospector
+    description: This hook is running prospector.
+    entry: run-prospector
+    language: script
+    types: [text]
